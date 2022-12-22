@@ -3,7 +3,7 @@
   margin: 0;
 }
 header {
-  height: 150%;
+  height: 13vh;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
 }
 header > h1 {
@@ -11,6 +11,29 @@ header > h1 {
   padding: 30px;
   text-align: center;
 }
-.App {
-  background-color: aqua;
+main {
+  height: 60vh;
+}
+footer {
+  height: 27vh;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+footer > h1 {
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h3 {
+  margin-top: 8px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+img {
+  width: 100px;
 }

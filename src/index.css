@@ -7,6 +7,7 @@ header {
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
 }
 header > h1 {
+  font-family: 'Pacifico', cursive;
   color: whitesmoke;
   padding: 30px;
   text-align: center;
@@ -60,12 +61,13 @@ footer {
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
 }
 footer > h1 {
+  font-family: 'Pacifico', cursive;
   color: whitesmoke;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 h3 {
-  margin-top: 8px;
+  margin-top: 3px;
   color: rgb(0, 0, 0);
   font-size: 12px;
 }
@@ -77,4 +79,9 @@ h3 {
 
 .small-img {
   width: 100px;
+}
+@media screen and (max-height:700px) {
+  .info {
+    line-height: 110%;
+  }
 }

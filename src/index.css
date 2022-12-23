@@ -12,7 +12,36 @@ header > h1 {
   text-align: center;
 }
 main {
+  display: flex;
+  flex-direction: row;
+  justify-content:stretch;
   height: 60vh;
+}
+.info {
+  width: 30%;
+  padding: 2rem;
+  line-height: 170%;
+  border: 3px solid #000;
+  margin: 1rem;
+}
+.info > h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+.slide {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 100ms;
+}
+.big-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.desc {
+  text-align: center;
 }
 footer {
   height: 27vh;
@@ -34,6 +63,6 @@ h3 {
   text-align: center;
 }
 
-img {
+.small-img {
   width: 100px;
 }
